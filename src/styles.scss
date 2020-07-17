@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary: #e50914;
+  --dark-gray: #333333;
+  --text-gray: #8c8c8c;
+  --color-gray: #b3b3b3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f5f5f5;
+}
+
+input,
+button {
+  padding: 16px 20px;
+  border-radius: 4px;
+  &::-ms-check {
+    display: none;
+  }
+}
